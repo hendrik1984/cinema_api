@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/settings.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+error_log/
+access_log/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Alembic migrations (keep structure but not .pyc files)
+alembic/versions/__pycache__/
+alembic/__pycache__/
+
+# Project specific
+uploads/
+static/
+media/
+temp/
+tmp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# FastAPI specific
+.venv/
+venv/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Secrets
+secrets/
+key.pem
+*.pem
+*.key
+*.crt
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Type checking
+*.pyi
+
+# Profiling data
+*.prof
